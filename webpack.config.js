@@ -7,10 +7,11 @@ module.exports = {
     entry: {
         index: './src/index.js',
         intro: './src/intro.js',
+        menu: './src/menu.js',
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Chinese Restaurant Zhu-Su',
+            title: 'Restaurant Odin',
         }),
     ],
     output: {

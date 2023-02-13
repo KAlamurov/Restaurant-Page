@@ -1,3 +1,5 @@
-console.log("Restaurant page being built...");
+import './style.css';
 import loadPage from "./intro";
+import menuItems from './menu';
+menuItems();
 loadPage();
