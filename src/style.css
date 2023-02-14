@@ -35,6 +35,10 @@ p {
     width: 40%;
 }
 
+.tabcontent {
+    display: none;
+}
+
 button {
     --b: 3px;
     /* border thickness */

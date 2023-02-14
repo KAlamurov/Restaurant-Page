@@ -8,6 +8,7 @@ module.exports = {
         index: './src/index.js',
         intro: './src/intro.js',
         menu: './src/menu.js',
+        tabs: './src/tabs.js',
     },
     plugins: [
         new HtmlWebpackPlugin({
