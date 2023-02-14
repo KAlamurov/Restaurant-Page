@@ -6,9 +6,10 @@ module.exports = {
     devtool: 'inline-source-map',
     entry: {
         index: './src/index.js',
-        intro: './src/intro.js',
-        menu: './src/menu.js',
-        tabs: './src/tabs.js',
+        home: './src/home.js',
+        drinks: './src/drinks.js',
+        food: './src/food.js',
+        contact: './src/contact.js',
     },
     plugins: [
         new HtmlWebpackPlugin({

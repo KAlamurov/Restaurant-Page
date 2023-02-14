@@ -9,34 +9,29 @@ body, html {
         box-sizing: border-box;
 }
 
-h1, p {
-    color: #e6ebea;
-    font-style: italic;
-}
-
 p {
     font-size: 1.3em;
     font-weight: bolder;
+    
 }
 
 #intro {
     text-align: center;
     width: 100%;
+    color: #e6ebea;
+    font-style: italic;
 }
 
 #container {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%
 }
 
 #dinner, #beer {
     border-radius: 30%;
     width: 40%;
-}
-
-.tabcontent {
-    display: none;
 }
 
 button {
